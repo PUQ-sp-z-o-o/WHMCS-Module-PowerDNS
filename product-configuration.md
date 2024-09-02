@@ -1,0 +1,22 @@
+# Product Configuration
+
+### PowerDNS module **[WHMCS](https://puqcloud.com/link.php?id=77)** 
+
+#####  [Order now](https://puqcloud.com/index.php?rp=/store/whmcs-module-powerdns) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-PowerDNS/) | [FAQ](https://faq.puqcloud.com/)
+
+##### Add new product to WHMCS
+
+```
+System Settings->Products/Services->Create a New Product
+```
+
+In the **Module settings** section, select the **"PUQ PowerDNS"** module
+
+[![image-1725215821870.png](https://doc.puq.info/uploads/images/gallery/2024-09/scaled-1680-/image-1725215821870.png)](https://doc.puq.info/uploads/images/gallery/2024-09/image-1725215821870.png)
+
+- **License key:** A pre-purchased license key for the **"PUQ PowerDNS"** module. For the module to work correctly, the key must be active
+- **Max Zones:** The number of zones that will be available for the client to manage.
+- **Edit SOA:** Whether to allow the client to manage the SOA record.
+- **Zone name filter:** In this field, you can enter regular expressions to filter zone names that the client can add. Each filter should be on a separate line, and each filter is checked in sequence, meaning the zone will not be added if even one filter matches.
+- **Nameservers:** In this section, enter the name servers that will be added to the zone (Your DNS cluster).
+- **SOA:** In this section, enter all the SOA record parameters that will be used by default.

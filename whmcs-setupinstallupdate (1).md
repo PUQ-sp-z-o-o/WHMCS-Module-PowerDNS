@@ -1,0 +1,33 @@
+# WHMCS setup(install/update)
+
+### PowerDNS module **[WHMCS](https://puqcloud.com/link.php?id=77)** 
+
+#####  [Order now](https://puqcloud.com/index.php?rp=/store/whmcs-module-powerdns) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-PowerDNS/) | [FAQ](https://faq.puqcloud.com/)
+
+<p class="callout info">To install and update a module, you must perform one and the same action.</p>
+
+#####  
+
+##### 1. Download the latest version of the module.
+
+PHP 8.1
+
+```Powershell
+wget http://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-PowerDNS/PUQ_WHMCS-PowerDNS-latest.zip
+```
+
+PHP 7.4
+
+```Powershell
+wget http://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-PowerDNS/php74/PUQ_WHMCS-PowerDNS-latest.zip
+```
+
+<p class="callout info">All versions are available via link: [https://download.puqcloud.com/WHMCS/servers/PUQ\_WHMCS-PowerDNS/](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-PowerDNS/)</p>
+
+##### 2. Unzip the archive with the module.
+
+```Powershell
+unzip PUQ_WHMCS-PowerDNS-latest.zip
+```
+
+##### 3. Copy and Replace "puqPowerDNS" to "WHMCS\_WEB\_DIR/modules/servers/"
